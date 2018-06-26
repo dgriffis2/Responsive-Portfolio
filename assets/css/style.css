@@ -217,15 +217,21 @@ input[type=submit] {
 }
 
 @media screen and(max-width: 980px) {
-  
+  .main-container{
+    width: 33%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .main-container{
+    width: 66%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  
+  .main-container{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
